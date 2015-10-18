@@ -2,7 +2,7 @@ language: java
 script: "mvn test && mvn verify"
 deploy:
   provider: releases
-  api_key: "9df2ac432d57937ad8c0729d04e6b7addc34182b"
+  api_key: "f91871053e8db3ab3f88837aef92f2bdd58b5019"
   file: "WorkshopMoney1.0"
   skip_cleanup: true
   on:
